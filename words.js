@@ -11,5 +11,5 @@ module.exports = [
   "Paweł Zaguła", "Piotr Rydzak", "Kabanos", "Clarens", "Andrzej Mika", "Zuza Gałka", "Aurel Iwanicki", "Feliks Malinowski",
   "Hubert z Czech", "Igor Andruszkiewicz", "Jacek Zabojszcza", "Jakub Anuszkiewicz", "Jakub Federowicz", "Jonatan Gejewski", 
   "Kleszcz Plasterkowaty", "Ola Fasola", "Nina Kundzicz", "Jula Wolny", "Syrenka", "Basia Sobota", "Tomek Smela", "Filip Lewandowski",
-  "Vegi", "Connect", "Janek AMG", "Jakub Błasiak"
+  "Vegi", "Connect", "Janek AMG", "Jakub Błasiak", "Krisu"
 ];
