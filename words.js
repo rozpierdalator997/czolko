@@ -4,12 +4,13 @@
 
 module.exports = [
   // Inne
-  "Franciszek Wais", "Janek Jazdrończyk", "Eryk Wassyl", "Mikołaj Borys", "Mateusz Szafraniec",
-  "Krzysztof Smardz", "Marcel Koszalkowski", "Wojtek Koczerski", "Misza Gołębiowski", "Grigori Schabowicz",
-  "Bartek Tybiński", "Szymon Mejdej", "Kamila Szafraniec", "Wiktoria Pniewska", "Wiktoria Grzesik", "Natalia Staśkiewicz",
-  "Szymon DvD", "Karola Nowak", "Roksana Cencelewicz", "Maks Lu", "Wujek Dziadek", "Łukasz Kubicki", "Clara Ochenduszkiewicz",
-  "Paweł Zaguła", "Piotr Rydzak", "Kabanos", "Clarens", "Andrzej Mika", "Zuza Gałka", "Aurel Iwanicki", "Feliks Malinowski",
-  "Hubert z Czech", "Igor Andruszkiewicz", "Jacek Zabojszcza", "Jakub Anuszkiewicz", "Jakub Federowicz", "Jonatan Gejewski", 
-  "Kleszcz Plasterkowaty", "Ola Fasola", "Nina Kundzicz", "Jula Wolny", "Syrenka", "Basia Sobota", "Tomek Smela", "Filip Lewandowski",
-  "Vegi", "Connect", "Janek AMG", "Jakub Błasiak", "Krisu"
+"Jefrey Epstein", "Adolf Hitler", "Bonnie Blue", "Józef Stalin", "Jan Paweł II", "Władimir Putin",
+  "Wołodimir Zelenski", "Donald Tusk", "Jarosław Kaczyński", "Faker", "Kapitan Bomba", "Pasha Biceps", "Donald Trump",
+  "Charlie Kirk", "Mia Khalifa", "Robert Kubica", "Adam Małysz", "Denis Załęcki", "Mariusz Trynkiewicz",
+  "Magnus Carlsen", "Jan Krzysztof Duda", "Dario", "Ferdynand Kiepski", "Bartosz Walaszek", "Piotr Połać", "Cjalis",
+  "Kołacina", "Spejson", "Walu", "Wojtas", "Mistrz Yoda", "Shifu", "Dart Vader", "Mammon", "Bonus BGC", "Mussolini",
+  "Napoleon Bonaparte", "Pablo Escobar", "Al Capone", "Osama Bin Laden", "Józef Piłsudski", "Megan Fox", "DD",
+  "Michał Pazdan", "Robert Lewandowski", "Popek", "Mini Majk", "Owca WK", "Harry Potter", "Geralt",
+  "Borys z filmu Borys", "Jezus Chrystus", "Benjamin Netanjahu"
+
 ];
