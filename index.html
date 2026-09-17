@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <title>Czółko</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Ekran 1: podanie nicku -->
+  <section id="screen-nick" class="screen active">
+    <div class="card">
+      <h1>🎯 Czółko</h1>
+      <p class="subtitle">Podaj swój nick, żeby dołączyć do gry</p>
+      <form id="nick-form">
+        <input
+          id="nick-input"
+          type="text"
+          placeholder="Twój nick"
+          maxlength="20"
+          autocomplete="off"
+          required
+        />
+        <button type="submit">Dołącz do gry</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Ekran 2: poczekalnia -->
+  <section id="screen-lobby" class="screen">
+    <div class="card">
+      <h1>Poczekalnia</h1>
+      <p class="subtitle">Gracze w grze:</p>
+      <ul id="players-list"></ul>
+      <p id="lobby-hint" class="hint">Potrzeba minimum 2 graczy, żeby rozpocząć.</p>
+      <button id="start-btn" class="primary">Start gry!</button>
+    </div>
+  </section>
+
+  <!-- Ekran 3: gra -->
+  <section id="screen-game" class="screen">
+    <div class="game-content">
+      <p class="game-hint">Twoje hasło do odgadnięcia:</p>
+      <div id="word-display">...</div>
+      <div class="game-buttons">
+        <button id="next-word-btn">🔄 Następne hasło</button>
+        <button id="fullscreen-btn">⛶ Pełny ekran</button>
+      </div>
+      <button id="end-game-btn" class="danger">Zakończ grę dla wszystkich</button>
+    </div>
+  </section>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
